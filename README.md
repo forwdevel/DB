@@ -1,1 +1,2 @@
-# DB
+# DB (Database)
+# SQL
