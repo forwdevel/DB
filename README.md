@@ -1,2 +1,2 @@
-# DB (Database)
-# SQL
+# Oracle DB
+# PL/SQL
