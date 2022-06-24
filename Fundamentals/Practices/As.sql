@@ -1,0 +1,1 @@
+-- AS : A keyword in SQL that allows you to rename a column or table using an alias.

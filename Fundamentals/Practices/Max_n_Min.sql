@@ -1,0 +1,2 @@
+-- MAX() : Takes the name of a column as an argument and returns the largest value un that column.
+-- MIN() : works the same way but it does the exact opposite; it returns the smallest value.

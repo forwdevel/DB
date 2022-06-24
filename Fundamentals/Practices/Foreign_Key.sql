@@ -1,0 +1,2 @@
+-- Note that customer_id (the primary key for customers) and subscription_id (the primary key for subscriptions) both appear in this.
+-- When the primary key for one table appears in a different table, it is called a foreign key.
