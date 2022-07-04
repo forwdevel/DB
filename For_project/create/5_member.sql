@@ -1,0 +1,11 @@
+-- Create a new relational table with 3 columns
+
+CREATE TABLE "MEMBER"
+(
+	ID NUMBER PRIMARY KEY,
+	NAME VARCHAR(20) NOT NULL,
+	ROLL VARCHAR(20) NOT NULL,
+	PW VARCHAR(20) NOT NULL
+);
+
+COMMIT;

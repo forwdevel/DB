@@ -183,3 +183,136 @@ SELECT * FROM V_TAKES WHERE stu_id = '1292001';
 INSERT INTO V_TAKES values('1292502', 'C101-01');
 
 SELECT * FROM TAKES;
+
+SELECT stu_id FROM takes WHERE grade IS NULL;
+
+SELECT stu_id FROM student WHERE STU_ID LIKE '1%' OR STU_ID LIKE '2%';
+
+SELECT deptno AS 부서코드, dname AS 부서명, loc AS 지역 FROM dept;
+
+SELECT deptno 부서코드, dname 부서명, loc 지역 FROM dept;
+
+--oracle only
+SELECT empno, ename || '(' || job || ')' employee FROM emp;
+
+-- date
+SELECT ename, round(sal/12,1),trunc(sal/12,1) FROM emp;
+
+SELECT sysdate, extract(MONTH FROM sysdate),
+EXTRACT (DAY FROM sysdate)
+FROM DUAL;
+
+SELECT SYSDATE FROM DUAL;
+
+SELECT * FROM DUAL ;
+
+-- Print char from without to_number
+SELECT ename, hiredate, TO_NUMBER(TO_CHAR(hiredate, 'YYYY')) 입사년도,
+TO_NUMBER(TO_CHAR(hiredate,'MM')) 입사월,
+TO_NUMBER(TO_CHAR(hiredate,'DD')) 입사일
+FROM emp;
+
+SELECT ename, hiredate,
+TO_CHAR(hiredate, 'YYYY') 입사년도,
+TO_CHAR(hiredate, 'MM') 월,
+TO_CHAR(hiredate, 'DD') 일
+FROM EMP e ;
+
+SELECT TO_CHAR(SYSDATE, 'YYYY/MM/DD') 날짜,
+TO_CHAR(SYSDATE, 'YYYY. MON. DAY')문자형
+-- 오라클 전용 더미 테이블
+-- 아무것도 없음 => 쿼리 형식을 맞추기 위해서만 존재
+FROM dual;
+
+--case
+SELECT ename, sal FROM emp;
+SELECT ename,
+CASE WHEN sal > 2000
+THEN sal
+ELSE 2000
+END revised_salary
+FROM emp;
+
+SELECT loc,
+CASE loc
+WHEN 'NEW YORK' THEN 'EAST'
+WHEN 'BOSTON' THEN 'EAST'
+WHEN 'CHICAGO' THEN 'CENTER'
+WHEN 'DALLAS' THEN 'CENTER'
+ELSE 'ETC' END AS AREA FROM DEPT;
+
+SELECT ename,
+CASE WHEN sal >= 3000 THEN 'high'
+WHEN sal >= 1000 THEN 'mid'
+ELSE 'low'
+END AS salary_grade
+FROM emp;
+
+-- NULL IF
+SELECT empno, ename, sal, nullif(comm,0) FROM emp;
+-- ==
+SELECT empno, ename, sal,
+CASE WHEN comm IS NULL
+THEN 0
+ELSE comm
+END AS commission
+FROM emp;
+
+SELECT * FROM EMP e 
+WHERE comm IS NULL;
+
+SELECT * FROM EMP e 
+WHERE comm IS NOT NULL;
+
+
+--ROWNUM
+SELECT * FROM emp
+WHERE rownum <= 5;
+-- (nvl : oracle only)
+SELECT ename, sal, comm, sal+nvl(comm, 0) salsum FROM EMP e 
+ORDER BY 4 DESC;
+
+SELECT *
+FROM (
+SELECT ename, sal, comm, sal+nvl(comm,0) salsum
+FROM EMP e
+ORDER BY 4 DESC
+)
+WHERE rownum <= 5;
+
+-- between
+SELECT * FROM EMP e
+WHERE sal BETWEEN 1500 AND 2500;
+
+-- group function
+SELECT dname, job,
+count(*) "Total Empl", sum(sal) "Total Sal"
+FROM emp, dept
+WHERE dept.DEPTNO = emp.DEPTNO
+GROUP BY dname, job
+ORDER BY dname, job;
+
+-- ROLLUP
+SELECT dname, job, count(*) "Total Empl", sum(sal) "Total Sal"
+FROM emp, dept WHERE dept.DEPTNO = emp.DEPTNO 
+GROUP BY ROLLUP (dname, job)
+ORDER BY dname, job;
+
+SELECT * FROM dept;
+
+delete FROM dept WHERE DEPTNO>=50;
+
+-- FOR AWT TEST
+CREATE TABLE login (
+	id varchar2(30),
+	password varchar2(30) NOT NULL,
+	CONSTRAINT pk_id PRIMARY KEY(id)
+);
+
+SELECT * FROM login ORDER BY id;
+
+INSERT INTO login values('green', 'green1234');
+INSERT INTO login values('user', 'green1234');
+
+
+
