@@ -18,8 +18,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'ECOP210',
-      0
-      '전공선택'
+      '전공선택',
       '경제통계학(영강)',
       3,
       '석원경상관 223',
@@ -36,8 +35,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'KUDS352',
-      0
-      '전공선택'
+      '전공선택',
       '한반도평화체제',
       3,
       '공공정책관 329',
@@ -54,8 +52,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'BDSC201',
-      0
-      '전공필수'
+      '전공필수',
       '수리통계학',
       3,
       '공공정책관 220',
@@ -72,8 +69,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'BDSC432',
-      0
-      '전공선택'
+      '전공선택',
       '데이터사이언스특강ii',
       3,
       '공공정책관 418',
@@ -90,8 +86,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'BDSC441',
-      0
-      '전공선택'
+      '전공선택',
       '현장실습i',
       3,
       '미정',
@@ -108,8 +103,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'BDSC442',
-      0
-      '전공선택'
+      '전공선택',
       '현장실습ii',
       3,
       '미정',
@@ -126,8 +120,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'DSSP453',
-      0
-      '전공선택'
+      '전공선택',
       '현장실습i',
       3,
       '미정',
@@ -144,8 +137,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'DSSP454',
-      0
-      '전공선택'
+      '전공선택',
       '현장실습ii',
       3,
       '미정',
@@ -162,8 +154,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'BTEC497',
-      0
-      '전공선택'
+      '전공선택',
       '바이오산업체현장실습i',
       3,
       '미정',
@@ -180,8 +171,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'BTEC498',
-      0
-      '전공선택'
+      '전공선택',
       '바이오산업체현장실습ii',
       3,
       '미정',
@@ -198,8 +188,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'KFBT483',
-      0
-      '전공선택'
+      '전공선택',
       '식품바이오현장인턴십i',
       3,
       '미정',
@@ -216,8 +205,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'KFBT484',
-      0
-      '전공선택'
+      '전공선택',
       '식품바이오현장인턴십ii',
       3,
       '미정',
@@ -234,8 +222,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'EMSE335',
-      1
-      '전공선택'
+      '전공선택',
       'CAD',
       3,
       '과학기술1관 411',
@@ -252,8 +239,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'EMSE341',
-      0
-      '전공선택'
+      '전공선택',
       '기전응용임베디드시스템개론',
       3,
       '과학기술1관 410',
@@ -270,8 +256,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'EMSE360',
-      0
-      '전공선택'
+      '전공선택',
       '현장실습i',
       3,
       '미정',
@@ -288,8 +273,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'EMSE461',
-      0
-      '전공선택'
+      '전공선택',
       '현장실습ii',
       3,
       '미정',
@@ -306,8 +290,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'EIEN180',
-      0
-      '전공선택'
+      '전공선택',
       '계산수학',
       3,
       '가속기ICT융합관 323',
@@ -324,8 +307,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'EIEN209',
-      0
-      '전공선택'
+      '전공선택',
       '공업수학i',
       3,
       '가속기ICT융합관 323',
@@ -342,8 +324,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'EIEN220',
-      0
-      '전공필수'
+      '전공필수',
       '디지털시스템',
       3,
       '산학협력관 114',
@@ -360,8 +341,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'EIEN233',
-      0
-      '전공선택'
+      '전공선택',
       '데이터구조',
       3,
       '산학협력관 114',
@@ -378,8 +358,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'EIEN486',
-      0
-      '전공선택'
+      '전공선택',
       '현장실습i',
       3,
       '미정',
@@ -396,8 +375,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'EIEN487',
-      0
-      '전공선택'
+      '전공선택',
       '현장실습ii',
       3,
       '미정',
@@ -414,8 +392,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'EIEN488',
-      0
-      '전공선택'
+      '전공선택',
       '현장실습iii',
       3,
       '미정',
@@ -432,8 +409,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'DCCS315',
-      0
-      '전공선택'
+      '전공선택',
       '현장실습i',
       3,
       '미정',
@@ -450,8 +426,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'DCCS316',
-      0
-      '전공선택'
+      '전공선택',
       '현장실습ii',
       3,
       '미정',
@@ -468,8 +443,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'DCCS417',
-      0
-      '전공선택'
+      '전공선택',
       '컴퓨터통신및실습',
       3,
       '과학기술2관 315',
@@ -486,8 +460,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'DCCS417',
-      0
-      '전공선택'
+      '전공선택',
       '환경공학현장인턴십i',
       3,
       '미정',
@@ -504,8 +477,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'DCCS417',
-      0
-      '전공선택'
+      '전공선택',
       '환경공학현장인턴십Ii',
       3,
       '미정',
@@ -522,8 +494,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'ENGS265',
-      0
-      '전공선택'
+      '전공선택',
       '영미권생활의이해',
       3,
       '공공정책관 325',
@@ -540,8 +511,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'ENGS314',
-      0
-      '전공선택'
+      '전공선택',
       '영미소설',
       3,
       '공공정책관 331',
@@ -558,8 +528,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'GLOB243',
-      0
-      '전공선택'
+      '전공선택',
       '생산운영관리',
       3,
       '석영경상관 219',
@@ -576,8 +545,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'GLOB272',
-      0
-      '전공선택'
+      '전공선택',
       '창업론',
       3,
       '석영경상관 221',
@@ -594,8 +562,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'GLOB347',
-      0
-      '전공선택'
+      '전공선택',
       '데이터사이언스개론',
       3,
       '석영경상관 323',
@@ -612,8 +579,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'GLOB474',
-      0
-      '전공선택'
+      '전공선택',
       '현장실습i',
       3,
       '미정',
@@ -630,8 +596,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'GLOB476',
-      0
-      '전공선택'
+      '전공선택',
       '현장실습iii',
       3,
       '미정',
@@ -648,8 +613,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'CULC461',
-      0
-      '전공선택'
+      '전공선택',
       '문화콘텐츠현장실습i',
       3,
       '미정',
@@ -666,8 +630,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'CULC462',
-      0
-      '전공선택'
+      '전공선택',
       '문화콘텐츠현장실습Ii',
       3,
       '미정',
@@ -684,8 +647,7 @@ INSERT INTO LECTURE
 VALUES
 (
       'CULC461',
-      0
-      '전공선택'
+      '전공선택',
       '문화콘텐츠현장실습iii',
       6,
       '미정',
